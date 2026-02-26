@@ -60,7 +60,7 @@
     Yes, in the drafting tan under each of the sections for **walls**, **doors**, **windows** you can change the size. 
 
 ??? question "Why I cannot add more wall trims, doors, and windows?"
-    This happens when you have already confirmed your drawing. Simply press **shift** and you will be able to add more drawing as **wall trims**, **doors**, **windows**, and **balcony railings**.
+    This happens when you have already confirmed your drawing. Simply press **+** and you will be able to add more drawing as **wall trims**, **doors**, **windows**, and **balcony railings**.
 
 ??? question "How can I delete some wall trims, doors, windows, and balcony railings?"
     Simply select the **wall trims**, **doors**, **windows**, and **balcony railings** that you want to delete and press **delete button** on the keyboard.
