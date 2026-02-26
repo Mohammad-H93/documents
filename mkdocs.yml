@@ -1,0 +1,66 @@
+site_name: Termite Docs
+site_url: https://mohammad-h93.github.io/docs-test/
+
+nav:
+  - index.md
+  - Welcome to Termite: welcome.md
+  - Create a Session: sessions.md
+  - Integrate with CAD:
+      - Integrate Sessions with CAD Software: Integrate Sessions with CAD Software/index.md
+      - Rhino:
+          - Integrate Termite with Rhino: Integrate Sessions with CAD Software/rhino/index.md
+          - Sync: Integrate Sessions with CAD Software/rhino/sync-index.md
+          - Generate: Integrate Sessions with CAD Software/rhino/generate-index.md
+
+      - Grasshopper:
+          - Integrate Termite with Grasshopper: Integrate Sessions with CAD Software/grasshopper/index.md
+          - Sync: Integrate Sessions with CAD Software/grasshopper/sync-index.md
+          - Generate: Integrate Sessions with CAD Software/grasshopper/generate-index.md
+
+      - Revit:
+          - Integrate Termite with Revit: Integrate Sessions with CAD Software/revit/index.md
+          - Sync: Integrate Sessions with CAD Software/revit/sync-index.md
+          - Generate: Integrate Sessions with CAD Software/revit/generate-index.md
+
+      - Archicad:
+          - Integrate Termite with Archicad: Integrate Sessions with CAD Software/archicad/index.md
+          - Sync: Integrate Sessions with CAD Software/archicad/sync-index.md
+          - Generate: Integrate Sessions with CAD Software/archicad/generate-index.md
+  - Export:
+      - Export the generated layout: export/index.md
+      - DWG: export/dwg-index.md
+      - BIM: export/bim-index.md
+  - Frequently asked questions: 'frequent-questions.md'
+
+
+theme:
+  font:
+    text: Inter
+    code: JetBrains Mono
+  name: material
+  features:
+    - navigation.indexes
+
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - admonition
+  - pymdownx.details
+
+extra_css:
+  - stylesheets/extra.css
