@@ -3,7 +3,6 @@ site_url: https://mohammad-h93.github.io/docs-test/
 
 nav:
   - index.md
-  - Welcome to Termite: welcome.md
   - Create a Session: sessions.md
   - Integrate with CAD:
       - Integrate Sessions with CAD Software: Integrate Sessions with CAD Software/index.md
@@ -34,10 +33,13 @@ nav:
 
 
 theme:
+
   font:
     text: Inter
     code: JetBrains Mono
   name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
   features:
     - navigation.indexes
 

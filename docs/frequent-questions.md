@@ -4,7 +4,7 @@
 
 
 ??? question "How do I install the plugins?"
-    Email us at [ info@termite.tools ](mailto:info@termite.tools). We will provide you a link with the installation guide for each specific CAD software.
+    Sign up for free and get your free Termites. You can see your **individual token**, **plugins** to download, and an installation guide for each specific CAD software.
 ---
 ## Sessions
 
@@ -77,6 +77,9 @@
 ??? question "Can I design with Rhino and sync with Termite and later export as BIM model?"
     Yes, exporting is not dependent on the original CAD software. By using each of the CAD software you can export as either DWG file or BIM model. [Follow instructions here](export/index.md)
 
-
+---
+## Other questions
+??? question "Your question is not in the above list?"
+    Email us at [ info@termite.tools ](mailto:info@termite.tools).
 
 

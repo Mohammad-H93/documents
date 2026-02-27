@@ -1,4 +1,4 @@
-# What is Termite?
+# Welcome to Termite Documentation
 
 **Termite** is an AI-powered design assistant that helps architects during the **early design phase** by generating standard architectural plans through an interactive interface.
 
@@ -122,10 +122,13 @@ The Termite design assistant will:
 
 ---
 
-## Who Termite Is For
+## Who Termite is For
 
 Termite is built for architects who want to:
 - Accelerate early-stage design
 - Explore layout alternatives efficiently
 - Stay connected to Rhino and Revit
 - Integrate AI without disrupting existing workflows
+
+
+Ready to start with Termite? [Start with creating a Session](sessions.md)
