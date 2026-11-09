@@ -38,6 +38,20 @@ This means Termite works on your real project shapes, not only on simple rectang
 | **Pro** | General engine (T_QUEEN_1 on the Termite_General dataset) | Shared |
 | **Enterprise** | Custom engine trained on **your own plans** | Dedicated server with dedicated resources |
 
+### Shared vs. dedicated
+
+**Shared** (Free and Pro):
+
+- **Your data stays private.** Your projects, floors and plans belong to your account only. Other users cannot see or access them.
+- **The engine is the same for everyone.** All Free and Pro users use the general T_QUEEN_1 engine. You cannot train it on your own plans.
+- **The hardware is shared.** Generation runs on servers that all Free and Pro users share. When many people generate at the same time, your results may take a little longer.
+
+**Dedicated** (Enterprise):
+
+- Your data is private, just like on the shared server.
+- The server and its resources are **yours alone**, so no other users affect your speed.
+- The engine can be **trained on your own plans**.
+
 ### Enterprise: train on your own plans
 
 Because T_QUEEN_1 needs only a small dataset, it can be trained on the plans of your office. Then the generated layouts follow your own design language, standards and typologies.

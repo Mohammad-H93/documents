@@ -15,6 +15,11 @@ The tab has two modes. Switch between them with the buttons at the top of the ta
 
 Use Explore when you want quick layout options for a standard unit type.
 
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/gZMrHFXYjZE" title="Generate a floor plan" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="video-note">Shown in Archicad. The steps are the same in Rhino and Revit. For what to select in your tool, see <a href="../modeling-tips/#what-to-select-in-each-cad-tool">What to select in each CAD tool</a>.</p>
+
 ### Step 1: Boundary
 
 For the geometry types each CAD tool accepts, see [What to select in each CAD tool](modeling-tips.md#what-to-select-in-each-cad-tool).

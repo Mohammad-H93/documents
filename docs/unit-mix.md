@@ -10,6 +10,15 @@ The tab has four steps. **All four are required**: a floor needs a boundary, hal
 
 ---
 
+## Video: project, floors, staircases and hallways
+
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/6YNZEUb26Cc" title="Create a project, floors, staircases and hallways" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="video-note">Shown in Archicad. The steps are the same in Rhino and Revit. For what to select in your tool, see <a href="../modeling-tips/#what-to-select-in-each-cad-tool">What to select in each CAD tool</a>.</p>
+
+---
+
 ## Step 1: Floor boundary
 
 1. Type a **Floor Name**, for example `Level 01`. If you leave it empty, Termite names it `Floor 1`, `Floor 2` and so on.
@@ -57,6 +66,11 @@ Row buttons:
 ---
 
 ## Step 4: Preferences and generate
+
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/pbCTqdv-l3w" title="Generate a unit mix for each floor" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="video-note">Shown in Archicad. The steps are the same in Rhino and Revit. For what to select in your tool, see <a href="../modeling-tips/#what-to-select-in-each-cad-tool">What to select in each CAD tool</a>.</p>
 
 ### Unit mix table
 

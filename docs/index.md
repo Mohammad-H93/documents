@@ -4,6 +4,35 @@
 
 ---
 
+## Watch Termite in action
+
+Three short videos, about 5 minutes in total, from an empty model to a finished floor plan.
+
+<div class="video-grid">
+<div class="video-card">
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/6YNZEUb26Cc" title="Create a project, floors, staircases and hallways" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  <p><strong>1. Create a project, floors, staircases and hallways</strong><br><a href="unit-mix/">Read the steps →</a></p>
+</div>
+<div class="video-card">
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/pbCTqdv-l3w" title="Generate a unit mix for each floor" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  <p><strong>2. Generate a unit mix for each floor</strong><br><a href="unit-mix/#step-4-preferences-and-generate">Read the steps →</a></p>
+</div>
+<div class="video-card">
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/gZMrHFXYjZE" title="Generate a floor plan" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  <p><strong>3. Generate a floor plan</strong><br><a href="plan/#explore-mode">Read the steps →</a></p>
+</div>
+</div>
+
+<p class="video-note">Shown in Archicad. The steps are the same in Rhino and Revit.</p>
+
+---
+
 ## How Termite works
 
 There are three steps:
