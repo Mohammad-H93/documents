@@ -1,3 +1,0 @@
-# Sync a Termite Session with Archicad
-
-Coming soon ...

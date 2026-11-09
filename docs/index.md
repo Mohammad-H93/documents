@@ -1,134 +1,40 @@
-# Welcome to Termite Documentation
+# Termite Documentation
 
-**Termite** is an AI-powered design assistant that helps architects during the **early design phase** by generating standard architectural plans through an interactive interface.
-
-Termite synchronizes with local CAD software to read geometries and design constraints, allowing architects to explore layout variations while staying connected to their existing design tools and workflows.
+**Termite** is an AI design assistant for the early design phase. It works inside the CAD tool you already use (**Rhino**, **Revit**, **Archicad** or **Grasshopper**). You draw a floor boundary, and Termite splits it into units and generates apartment or hotel-room layouts for you.
 
 ---
 
-## How Termite Works
+## How Termite works
 
-Termite connects to your local CAD environment (such as Rhino or Revit) through plugins and synchronizes geometry, boundaries, and constraints with the **Termite Cloud Dashboard**.
+There are three steps:
 
-Through an interactive AI-powered interface, Termite:
-- Reads spatial inputs and design intentions
-- Processes custom physical programs
-- Generates plan layouts that can be reviewed, refined, and exported back into CAD or BIM environments
+1. **Sign in to the portal.** On [termite.tools](https://termite.tools) you get your access token, download the plugins and manage your plan.
+2. **Install the plugin** for your CAD tool and enter your access token.
+3. **Design inside your CAD tool.** Create a project, define floors, generate a unit mix and then generate floor plans for the units.
 
-Alongside the dashboard, Termite also provides **API services** and **dedicated consultancy** to support custom AI-driven design workflows.
+```
+Portal  ──►  Plugin (Rhino / Revit / Archicad / Grasshopper)
+             │
+             └─ Project
+                 └─ Floors ──► Unit mix ──► Plan layouts
+```
 
----
-
-## A Brief History
-
-Termite has been designed and developed since **2020**.
-
-
-
-- Started as **Termite Nest**, a Grasshopper plugin
-- Reached over **6,000 downloads**
-- Evolved through extensive community feedback
-- Became a full **intelligent design assistant dashboard in 2025**
-
-This evolution reflects a strong focus on real architectural workflows and practical usability.
+All your work is saved under a **project** on the Termite server. You can close your CAD tool and come back to it later.
 
 ---
 
+## Where to go next
 
-##  Features
-
-### Sync and Generate
-Within a session, you can synchronize Termite with your CAD software to:
-- Define site boundaries
-- Set preferred locations
-- Specify fixed or restricted geometries
-
-Termite AI then generates multiple layout variations based on these inputs.
-
----
-
-### Easy Draft
-Select a generated layout and refine it directly:
-- Add or trim walls
-- Place doors and windows
-- Adjust space quality and proportions
-
-All refinements are performed quickly and intuitively, supporting fast iteration.
+| Page | What you learn |
+|---|---|
+| [About Termite](about.md) | Current version, the T_QUEEN_1 engine, Free / Pro / Enterprise engines |
+| [Getting started](getting-started.md) | Portal, access token, plans and Termites, installing a plugin |
+| [Core concepts](concepts.md) | What projects, floors, hallways, staircases, units and spaces are |
+| [Generate a unit mix](unit-mix.md) | The **Units** tab: split a floor into units |
+| [Generate a plan](plan.md) | The **Plan** tab: Explore mode and Sketch mode |
+| [Settings](settings.md) | The **Settings** tab and the Termite bar |
+| [Modeling tips](modeling-tips.md) | Polylines vs. curves, edge sizes, levels in Revit/Archicad, layers in Rhino |
 
 ---
 
-### Layered Export
-Generated plans can be exported with structured layers including:
-- Walls
-- Doors
-- Windows
-- Space boundaries
-
-These layered outputs can be seamlessly imported into your CAD software and aligned with synchronized locations.
-
----
-
-### Live Update
-Modify the building outline or individual spaces directly in your CAD software and see the impact on layout generation **in real time**.
-
-This enables a continuous feedback loop between geometry and AI-generated layouts.
-
----
-
-### BIM Model Export
-Plans can be exported as **native Revit BIM models**.
-
-Using the Termite Revit plugin:
-- Wall, window, and door types are synced from Revit
-- Termite loads the plan using your predefined BIM settings
-- Each space is assigned appropriate building elements automatically
-
----
-
-## API and Custom Workflows
-
-### Layout API
-Termite provides a **Layout API** that allows teams to build custom AI-driven workflows.
-
-Through API access and consultancy services, Termite supports:
-- Custom integrations
-- Automated layout generation
-- Tailored AI design pipelines for specific practices
-
----
-
-## Upcoming Features
-
-### Planning Design Code Verify *(Coming Soon)*
-Upload local municipality design code documents and let Termite:
-- Parse regulatory requirements
-- Cross-verify generated plan geometry
-- Assist with compliance checking
-
----
-
-### Eco Layer *(Coming Soon)*
-Apply default or custom materials to:
-- Walls
-- Windows
-- Ceilings
-- Roofing
-- HVAC systems
-
-The Termite design assistant will:
-- Assign intelligent data layers to geometry
-- Automate energy-related calculations
-- Support early sustainability evaluation
-
----
-
-## Who Termite is For
-
-Termite is built for architects who want to:
-- Accelerate early-stage design
-- Explore layout alternatives efficiently
-- Stay connected to Rhino and Revit
-- Integrate AI without disrupting existing workflows
-
-
-Ready to start with Termite? [Start with creating a Session](sessions.md)
+Questions? Email us at [info@termite.tools](mailto:info@termite.tools).
