@@ -137,3 +137,48 @@ body,
     grid-template-columns: 1fr;
   }
 }
+
+/* Furniture page: plan drawings of the standard furniture */
+.furniture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1em;
+  margin: 1em 0 1.6em;
+}
+
+.furniture-card {
+  border: 1px solid var(--docs-gray-light);
+  border-radius: 8px;
+  padding: 0.8em;
+}
+
+.furniture-picture {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.furniture-picture img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+[data-md-color-scheme="slate"] .furniture-picture img {
+  filter: invert(1);
+}
+
+.md-typeset .furniture-card p {
+  margin: 0.2em 0 0;
+  line-height: 1.4;
+}
+
+.md-typeset .furniture-card .furniture-name {
+  font-weight: 700;
+  color: var(--docs-black);
+}
+
+.md-typeset .furniture-card .furniture-size {
+  font-size: 0.8rem;
+}
+
