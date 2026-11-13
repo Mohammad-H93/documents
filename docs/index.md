@@ -23,7 +23,7 @@ Three short videos, about 5 minutes in total, from an empty model to a finished 
 </div>
 <div class="video-card">
 <div class="video-embed">
-  <iframe src="https://www.youtube-nocookie.com/embed/gZMrHFXYjZE" title="Generate a floor plan" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/T_wmAKrGkZU" title="Generate a floor plan" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
   <p><strong>3. Generate a floor plan</strong><br><a href="plan/#explore-mode">Read the steps →</a></p>
 </div>
